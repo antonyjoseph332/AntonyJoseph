@@ -43,6 +43,9 @@ body {
 .Quote {
     background-color: #20303c;
 }
+.about {
+    background-color: rgba(242, 241, 239, .5);
+}
 .Profesional {
     background-color: rgba(242, 241, 239, .5);
 }
