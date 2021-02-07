@@ -50,6 +50,8 @@ body {
 }
 .Profesional {
     background-color: rgba(242, 241, 239, .5);
+    padding-left:10px;
+    padding-right:10px;
 }
 .pro-contant {
 }
@@ -74,18 +76,11 @@ body {
     background-image: linear-gradient(to right, #8f7979, #2d0103, #8f7979);
     margin-left: 0px;
 }
-.pro1 {
-    transform: rotate(60deg);
-    width: 40%;
-    box-shadow: 32px 31px 45px 0px;
+.proimg {
+    width: inherit;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     margin-left: auto;
     margin-right: auto;
-}
-.pro2 {
-    transform: rotate(0deg);
-    transform-style: preserve-3d;
-    width: 40%;
-    box-shadow: -38px 14px 45px 0px;
 }
 .contact-text {
     width: 100%;
