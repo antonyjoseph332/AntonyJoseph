@@ -73,14 +73,15 @@ body {
 .underline-base {
     width: 100%;
     height: 2px;
-    background-image: linear-gradient(to right, #8f7979, #2d0103, #8f7979);
+    background-color: #2d0103;
     margin-left: 0px;
 }
 .proimg {
     width: inherit;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    box-shadow: -16px 4px 8px 0 rgba(0, 0, 0, .2), -8px 25px 20px 0 rgba(0, 0, 0, .44);
     margin-left: auto;
     margin-right: auto;
+    border-radius: 50%;
 }
 .contact-text {
     width: 100%;
