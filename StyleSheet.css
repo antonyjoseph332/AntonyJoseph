@@ -31,10 +31,12 @@ body {
     border-width: 20px;
     border-color: initial;
     width: 90%;
+    box-shadow: 0 9px 74px 0 rgba(0, 0, 0, 44), 0 8px 80px 0 rgba(0, 0, 0, 200);
 }
 .name {
     font-size: 2.8rem;
     font-family: cursive;
+    text-align:center;
 }
 .section-one {
     background-size: 100%;
@@ -42,6 +44,9 @@ body {
 }
 .Quote {
     background-color: #20303c;
+}
+.about {
+    background-color: rgba(242, 241, 239, .5);
 }
 .Profesional {
     background-color: rgba(242, 241, 239, .5);
