@@ -13,6 +13,7 @@ body {
     background-image: url(Accets/ContainerBG.jpg);
     background-repeat:no-repeat;
     background-size:cover;
+    padding-bottom:100px;
 }
 /*
 .card {
