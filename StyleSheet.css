@@ -7,7 +7,7 @@ body {
     height: 100%;
     width:100%;
     background-repeat: no-repeat;*/
-    background-color: #2d0103;
+    background-color: #2c0506;
 }
 .BG1{
     background-image: url(Accets/ContainerBG.jpg);
@@ -47,19 +47,23 @@ body {
     background-color: #20303c;
 }
 .about {
-    background-color: rgba(242, 241, 239, .5);
+    background-color: rgba(80, 57, 57, .2);
 }
 .Profesional {
-    background-color: rgba(242, 241, 239, .5);
-    padding-left:10px;
-    padding-right:10px;
+    background-color: rgba(80, 57, 57, .2);
+    padding-left: 10px;
+    padding-right: 10px;
 }
-.pro-contant {
+.card{
+    transition:1s;
+}
+.card:hover {
+    box-shadow: 0 9px 74px 0 rgba(0, 0, 0, 44), 0 8px 80px 0 rgba(0, 0, 0, 200);
 }
 .col-8 {
     margin-top: auto;
     margin-bottom: auto;
-    padding-left:7%;
+    padding-left: 7%;
 }
 .col-4 {
     margin-left: auto;
@@ -68,13 +72,13 @@ body {
 .underline {
     width: 70%;
     height: 2px;
-    background-image: linear-gradient(to right, #2d0103, #8f7979);
+    background-image: linear-gradient(to left, #330f10, #8f7979);
     margin-left: 0px;
 }
 .underline-base {
     width: 100%;
     height: 2px;
-    background-color: #2d0103;
+    background-color: #2c0506;
     margin-left: 0px;
 }
 .proimg {
